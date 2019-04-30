@@ -1082,7 +1082,10 @@ max-width: 300px;
 
 
 @media only screen and (max-width : 414px) {
-	.main-containter{height: 700px;}
+	
+	html{background-image: none;
+	}
+	.main-containter{height: 630px;background-image: url("../Images/mobile_background.jpg"); background-size: contain}
 	
 	#nav{position: fixed;
 right: 7%;
@@ -1102,7 +1105,7 @@ z-index: 15}
 	h1{font-size: 30pt}
 	
 	li{font-size: 14pt;}
-	#subhead{top:60px;left:42px;position: absolute;}
+	#subhead{top:80px;left:42px;position: absolute;}
 	
 	.rotation{
 		left:42px;
@@ -1134,7 +1137,9 @@ z-index: 15}
 	
 	h1{font-size: 30pt}
 	
-	#subhead{top:60px;left:40px;position: absolute;}
+	h5{}
+	
+	#subhead{top:220px;left:40px;position: absolute;font-size: 15pt;}
 	
 	#left{margin-right: 0px;}
 	
@@ -1146,7 +1151,8 @@ z-index: 15}
 
 
 	#intro{left: 40px;
-	position: absolute;}
+	position: absolute;
+	opacity: 1}
 
 .word {
   position: absolute;
