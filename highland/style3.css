@@ -922,6 +922,8 @@ max-width:78%;
 
 @media only screen and (max-width : 414px) {
 	
+	.main-containter{height:900px;}
+	
 	
 	#nav{position: fixed;
 right: 7%;
@@ -929,7 +931,7 @@ top: 18px;
 z-index: 15}
 	
 .rotation {
-  position: fixed;
+  position: absolute;
   width: 80%;
   left: 60px;;
   margin-left: 0;
@@ -941,7 +943,7 @@ z-index: 15}
 
 }
 
-	#subhead{top:550px;left:35px;}
+	#subhead{top:550px;left:35px; position: absolute}
 
 
 p {
@@ -960,7 +962,7 @@ p {
 font-weight: 400;
 line-height: 16pt;
 width:86%;
-	position: fixed;
+	position: absolute;
 	opacity: 1;
 	left:60px;
 	margin-top: 170px;
@@ -1063,7 +1065,7 @@ width:86%;
 		
 		
 .rotation {
-  position: fixed;
+  position: absolute;
   width: 80%;
   left: 60px;;
   margin-left: 0;
@@ -1094,7 +1096,7 @@ p {
 font-weight: 400;
 line-height: 16pt;
 width:86%;
-	position: fixed;
+	position: absolute;
 	opacity: 1;
 	left:60px;
 	margin-top: 180px;
