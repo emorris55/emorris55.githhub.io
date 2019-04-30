@@ -1082,6 +1082,7 @@ max-width: 300px;
 
 
 @media only screen and (max-width : 414px) {
+	.main-containter{height: 700px;}
 	
 	#nav{position: fixed;
 right: 7%;
@@ -1101,13 +1102,15 @@ z-index: 15}
 	h1{font-size: 30pt}
 	
 	li{font-size: 14pt;}
-	#subhead{top:60px;left:42px;}
+	#subhead{top:60px;left:42px;position: absolute;}
 	
 	.rotation{
 		left:42px;
+		position: absolute;
 	}
 	
-	#intro{left:42px;}
+	#intro{left:42px;
+	position: absolute;}
 	
 	
 	
@@ -1131,16 +1134,19 @@ z-index: 15}
 	
 	h1{font-size: 30pt}
 	
-	#subhead{top:60px;left:40px;}
+	#subhead{top:60px;left:40px;position: absolute;}
 	
 	#left{margin-right: 0px;}
 	
 
-	.rotation{left:40px;}
+	.rotation{left:40px;
+		position: absolute;
+	}
 
 
 
-	#intro{left: 4xxs0px;}
+	#intro{left: 40px;
+	position: absolute;}
 
 .word {
   position: absolute;
@@ -1213,7 +1219,8 @@ z-index: 15}
 
 
 		
-	#designer{font-size: 22pt;}
+	#designer{font-size: 22pt;
+	position: absolute;}
 		
 	
 	
