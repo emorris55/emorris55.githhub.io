@@ -991,14 +991,14 @@ header div img {
   left: 62px;
   margin-left: 0;
   height: 40%;
-  top: 160px;;
+  top: 220px;;
   margin-top: 0px;
 
 	
 
 }
 	
-		#subhead{top:60px;left:62px;}
+		#subhead{top:100px;left:62px;}
 
 
 
@@ -1022,7 +1022,7 @@ max-width: 300px;
 	position: fixed;
 	opacity: .8;
 	left: 62px;;
-	margin-top: 220px;
+	margin-top: 280px;
 
 }
 
