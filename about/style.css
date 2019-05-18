@@ -1085,7 +1085,6 @@ max-width: 300px;
 	
 	html{background-image: none;
 	}
-	.main-containter{height: 630px;background-image: url("../Images/mobile_background.jpg"); background-size: contain}
 	
 	#nav{position: fixed;
 right: 7%;
