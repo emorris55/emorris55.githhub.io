@@ -1083,8 +1083,11 @@ max-width: 300px;
 
 @media only screen and (max-width : 414px) {
 	
-	html{background-image: none;
+	html{background-color:  #014459; background-image: none;
 	}
+	
+	.main-containter{background-image: none;height: 650px;}
+
 	
 	#nav{position: fixed;
 right: 7%;
