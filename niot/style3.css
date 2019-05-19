@@ -891,7 +891,6 @@ max-width:78%;
 
 @media only screen and (max-width : 414px) {
 	
-	.main-containter{height: 500px;}
 	
 	#nav{position: fixed;
 right: 7%;
