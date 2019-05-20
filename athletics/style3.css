@@ -47,16 +47,14 @@ color:white;}
 /*typewriter*/
 
 .rotation {
-		z-index: -10;
-  position: fixed;
-  width: 80%;
-  left: 33%;
-  margin-left: 0;
-  height: 40%;
-  top: 180px;;
-  margin-top: 0px;
-
-
+    z-index: -10;
+    position: fixed;
+    width: 80%;
+    left: 65px;
+    margin-left: 0;
+    height: 40%;
+    top: 280px;
+    margin-top: 0px;
 	
 
 }
