@@ -119,25 +119,25 @@ ol{font-size: 9pt;
 }
 
 .wisteria {
-  color: #8e44ad;
+  color: #FA971A;
 	font-size: 40pt;
 	top:0px;
 }
 
 .belize {
-  color: #2980b9;
+  color: #FA971A;
 	font-size:40pt;
 	top:0px;
 }
 
 .pomegranate {
-  color: #c0392b;
+  color: #FA971A;
 	font-size: 40pt;
 	top:0px;
 }
 
 .green {
-  color: #16a085;
+  color: #FA971A;
 	font-size: 40pt;
 	top:0px;
 }
@@ -150,7 +150,7 @@ ol{font-size: 9pt;
 
 
 .curious{
-  color: #02E4FF;
+  color: #FA971A;
 	font-size: 40pt;
 	top:0px; 
 }
@@ -869,9 +869,9 @@ border-bottom: 3px}
 
 .main-containter{ width: 100%;
 height:500px;
-	 background-image: linear-gradient(to bottom , #014459, #00232F);
+	 background-color: #0c78a2;
 	opacity:0;
-transition: 3s opacity;
+
 
 }
 
