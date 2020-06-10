@@ -5,13 +5,13 @@
 body {
 	margin: 0;
 	padding: 0;
-	background:#014459;
+	background:white;
 	
 	
 }
 h1{font-family:"proxima-nova"; 
 	font-weight: 800;
-	color:white;
+	color:black;
 		font-size: 24pt;
 	line-height: 17.23pt;
 	
@@ -58,8 +58,8 @@ p {
   
   margin: 0;
 	font-family:"proxima-nova"; 
-	font-weight: 800;
-	color:white;
+	font-weight: 700;
+	color:black;
 		font-size: 40pt;
 	line-height: 17.23pt;
 	
@@ -446,7 +446,7 @@ p {
   margin: 0;
 	font-family:"proxima-nova"; 
 	font-weight: 800;
-	color:white;
+	color:black;
 		font-size: 40pt;
 	line-height: 17.23pt;
 	
@@ -658,31 +658,34 @@ max-width: 160px;
 }
 	
 
-h3{font-family:"proxima-nova"; 
-	font-weight: 800;
-	color:white;
-	width:50%;
+h3{
+font-family:"proxima-nova"; 
+font-weight: 800;
+color:black;
+width:50%;
 
 	 }
 
-#im_top{font-size: 18pt;
-	position: absolute;
+#im_top{
+font-size: 18pt;
+position: absolute;
 margin-left:0px;
 top:-60px;}
 
-#designer{font-size:40pt;
+#designer{
+font-size:40pt;
 margin-left:00px;
 margin-top: 0px;
-	margin-bottom: 30px;
-font-style: oblique;}
+margin-bottom: 30px;
+font-style:;}
 
 #logo-container{
-	width: 300px; 
-	height:0px;
-	position: fixed;
-	z-index: 5;
-	left:60px;
-	margin-top: 30px;
+width: 300px; 	
+height:0px;
+position: fixed;
+z-index: 5;
+left:10px;
+margin-top: 13px;
 	margin-right: 0px;}
 
 
@@ -778,7 +781,7 @@ margin-top: 0px}
 .container {
   position: relative;
   width: 100%;
-  max-width: 600px;
+  max-width: 640px;
 	
 }
 
@@ -833,7 +836,7 @@ margin-top: 0px}
 	font-family:"proxima-nova";
 	font-weight: 200;
 	font-style:italic;
-color:white;}
+color:black;}
 
 
 
@@ -849,7 +852,7 @@ ul {
 	font-size: 12pt;
 	font-weight:700;
 	letter-spacing: .5px;
-	word-spacing: 7px;
+	word-spacing: 23px;
 	padding-top: 20px;
 	padding-left: 30px
 }
@@ -861,22 +864,22 @@ ul {
 	margin-top: 10px;
 }
 
-a{color: white;
+a{color:black;
 	overflow: hidden;
 text-decoration:none;
 border-bottom: 3px}
 
 
 .main-containter{ width: 100%;
-height:500px;
-	 background-color: #0c78a2;
+height:300px;
+	 background-color:white;
 	opacity:0;
 
 
 }
 
 li{display: inline;
-color:white;
+color:black;
 	overflow: hidden;
 	font-weight: 500
 }
@@ -884,7 +887,7 @@ color:white;
 .nav-bar{width:100%;
 height:116px;
 padding-right:0px;
-color:white;}
+	color:black;}
 
 
 
@@ -1009,7 +1012,7 @@ p {
   margin: 0;
 	font-family:"proxima-nova"; 
 	font-weight: 800;
-	color:white;
+	color:black;
 		font-size: 30pt;
 	line-height: 17.23pt;
 	
@@ -1126,13 +1129,13 @@ z-index: 15}
 	height:0px;
 	position: fixed;
 	z-index: 5;
-	left:40px;
+	left:5px;
 	margin-top: 10px;}
 	
 	
 	h1{font-size: 30pt}
 	
-	li{font-size: 14pt;}
+	li{font-size: 10pt;}
 	#subhead{top:60px;left:42px;}
 	
 	.rotation{
@@ -1158,18 +1161,19 @@ z-index: 15}
 	height:0px;
 	position: fixed;
 	z-index: 5;
-	left:40px;
-	margin-top: 10px;}
+	left:14px;
+	margin-top: 14px;}
 	
 	h1{font-size: 30pt}
 	
 	#subhead{top:60px;left:40px;}
 	
-	#left{margin-right: 0px;}
+	li{margin-right: 0px;}
 	
 
 	.rotation{left:40px;}
-
+	
+#mainlogo{height: 80px; width:80px;}
 
 
 	#intro{left: 4xxs0px;}
@@ -1440,7 +1444,41 @@ header{
     font-style: normal;
 }
 		
-		
+		.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
 		
 
 
